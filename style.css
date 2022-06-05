@@ -1,0 +1,114 @@
+body.start {
+    padding: 0;
+    margin: 0;
+    background-color: #000000;
+    font-family: 'Press Start 2P', cursive;
+}
+
+header {
+    height: 10vh;
+    text-align: center;
+    color: yellow;
+    font-family: 'Press Start 2P', cursive;
+    letter-spacing: 5px;
+    margin-top: 3rem;
+}
+
+main {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrp-start {
+    width: 100%;    
+    color: yellow;
+    text-align: center;
+    display: block;
+    padding-top: 50px;
+}
+.wrp-start h1 {
+    margin-bottom: 50px;
+    position: relative;
+    animation: text__1 10s infinite;
+    text-shadow: 4px 4px 2px white;
+    transition: all .5s;
+}
+@keyframes text__1 {
+    0% {
+        left: 0;
+        right: 0;
+        color: yellow;
+    }
+    25% {
+        left: 200px;
+        right: 0;
+        color: blue;
+    }
+    50% {
+        left: 0;
+        right: 0;
+        color: green;
+    }
+    75% {
+        left: -200px;
+        right: 0;
+        color: orange;
+    }
+    100% {
+        left: 0;
+        right: 0;
+        color: yellow;
+    }
+}
+.wrp-start h2 {
+    margin-bottom: 150px;
+    animation: text__2 10s infinite;
+    transition: all .5s;
+}
+@keyframes text__2 {
+    
+}
+.wrp-start a {
+    color: orange;
+    text-decoration: none;
+    font-size: 40px;
+    position: relative;
+    animation: mymove 10s infinite;
+    display: inline-block;
+    text-align: center;
+}
+.wrp-start a:hover {
+    transition: all .5s;
+    text-shadow: 4px 4px 2px white;
+}
+@keyframes mymove {
+    0% {
+        top: 0;
+        left: 0;
+        color: blue;
+    }
+    25% {
+        text-decoration: overline;
+        top: 0;
+        left: 100px;
+        color: yellow;
+    }
+    50% {
+        top: 100px;
+        left: 100px;
+        color: orange;
+    }
+    75% {
+        text-decoration: overline;
+        top: 100px;
+        left: 0;
+        color: green;
+    }
+    100% {
+        top: 0;
+        left: 0;
+        color: red;
+    }
+}
+
